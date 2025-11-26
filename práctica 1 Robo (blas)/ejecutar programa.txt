@@ -1,0 +1,6 @@
+EJECUTARLO EN ESCRITORIO VIRTUAL
+1. Si lo has ejecutado anteriormente y no es la primera vez:
+rm -rf build install log
+2. colcon build --packages-select car_pkg --symlink-install
+3. source install/setup.bash
+4. ros2 launch car_pkg robot_launch.py
