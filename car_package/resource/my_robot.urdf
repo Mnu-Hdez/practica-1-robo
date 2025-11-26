@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<robot name="citroen_czero">
+  <webots>
+    <!-- Cámaras -->
+    <device reference="car_camera" type="Camera">
+      <ros>
+        <topicName>/car_camera</topicName>
+        <alwaysOn>true</alwaysOn>
+        <updateRate>10.0</updateRate>
+      </ros>
+    </device>
+    
+    <device reference="road_camera" type="Camera">
+      <ros>
+        <topicName>/road_camera</topicName>
+        <alwaysOn>true</alwaysOn>
+        <updateRate>10.0</updateRate>
+      </ros>
+    </device>
+    
+    <!-- Motores -->
+    <device reference="left_front_wheel" type="RotationalMotor">
+      <ros>
+        <topicName>/left_front_motor</topicName>
+      </ros>
+    </device>
+    
+    <device reference="right_front_wheel" type="RotationalMotor">
+      <ros>
+        <topicName>/right_front_motor</topicName>
+      </ros>
+    </device>
+  </webots>
+</robot>
