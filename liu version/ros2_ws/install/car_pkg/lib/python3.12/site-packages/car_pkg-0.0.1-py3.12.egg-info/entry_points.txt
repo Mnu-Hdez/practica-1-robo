@@ -1,0 +1,4 @@
+[console_scripts]
+car_controller = car_pkg.car_controller:main
+lane_controller = car_pkg.lane_controller:main
+sign_detector = car_pkg.sign_detector:main

@@ -1,0 +1,19 @@
+[1.094s] Invoking command in '/home/balsito/Desktop/ros2_ws/build/car_pkg': PYTHONPATH=/home/balsito/Desktop/ros2_ws/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/balsito/Desktop/ros2_ws/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/balsito/Desktop/ros2_ws/build/car_pkg/build --no-deps symlink_data
+[1.537s] running develop
+[1.848s] running egg_info
+[1.876s] writing car_pkg.egg-info/PKG-INFO
+[1.877s] writing dependency_links to car_pkg.egg-info/dependency_links.txt
+[1.877s] writing entry points to car_pkg.egg-info/entry_points.txt
+[1.877s] writing requirements to car_pkg.egg-info/requires.txt
+[1.877s] writing top-level names to car_pkg.egg-info/top_level.txt
+[1.937s] reading manifest file 'car_pkg.egg-info/SOURCES.txt'
+[1.938s] writing manifest file 'car_pkg.egg-info/SOURCES.txt'
+[1.969s] running build_ext
+[1.969s] Creating /home/balsito/Desktop/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car-pkg.egg-link (link to .)
+[1.970s] Installing car_controller script to /home/balsito/Desktop/ros2_ws/install/car_pkg/lib/car_pkg
+[1.970s] Installing lane_controller script to /home/balsito/Desktop/ros2_ws/install/car_pkg/lib/car_pkg
+[1.970s] Installing sign_detector script to /home/balsito/Desktop/ros2_ws/install/car_pkg/lib/car_pkg
+[1.971s] 
+[1.971s] Installed /home/balsito/Desktop/ros2_ws/build/car_pkg
+[1.971s] running symlink_data
+[2.004s] Invoked command in '/home/balsito/Desktop/ros2_ws/build/car_pkg' returned '0': PYTHONPATH=/home/balsito/Desktop/ros2_ws/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/balsito/Desktop/ros2_ws/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/balsito/Desktop/ros2_ws/build/car_pkg/build --no-deps symlink_data

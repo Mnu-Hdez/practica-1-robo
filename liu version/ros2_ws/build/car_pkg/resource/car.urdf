@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<robot name="car">
+    <webots>
+        <!-- Publica las cámaras directamente sin plugin específico -->
+        <device reference="car_camera" type="Camera">
+            <ros>
+                <topicName>/car/car_camera/image_raw</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        
+        <device reference="road_camera" type="Camera">
+            <ros>
+                <topicName>/car/road_camera/image_raw</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+    </webots>
+</robot>

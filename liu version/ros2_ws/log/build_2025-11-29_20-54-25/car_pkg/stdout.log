@@ -1,0 +1,36 @@
+running egg_info
+writing ../../build/car_pkg/car_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_pkg/car_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/car_pkg/car_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/car_pkg/car_pkg.egg-info/requires.txt
+writing top-level names to ../../build/car_pkg/car_pkg.egg-info/top_level.txt
+reading manifest file '../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build
+creating /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib
+creating /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+copying car_pkg/__init__.py -> /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+copying car_pkg/sign_detector.py -> /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+copying car_pkg/lane_controller.py -> /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+copying car_pkg/car_controller.py -> /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+running install
+running install_lib
+creating /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+copying /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg/__init__.py -> /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+copying /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg/sign_detector.py -> /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+copying /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg/lane_controller.py -> /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+copying /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg/car_controller.py -> /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+byte-compiling /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg/sign_detector.py to sign_detector.cpython-312.pyc
+byte-compiling /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg/lane_controller.py to lane_controller.cpython-312.pyc
+byte-compiling /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg/car_controller.py to car_controller.cpython-312.pyc
+running install_data
+running install_egg_info
+Copying ../../build/car_pkg/car_pkg.egg-info to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg-0.0.1-py3.12.egg-info
+running install_scripts
+Installing car_controller script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+Installing lane_controller script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+Installing sign_detector script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+writing list of installed files to '/home/vboxuser/Downloads/ros2_ws/build/car_pkg/install.log'

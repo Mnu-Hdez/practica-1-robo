@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: car-pkg
+Version: 0.0.1
+Summary: Paquete ROS 2 para control de coche autónomo en Webots.
+Maintainer: tu_nombre
+Maintainer-email: paulohijo0@gmail.com
+License: Apache License 2.0
