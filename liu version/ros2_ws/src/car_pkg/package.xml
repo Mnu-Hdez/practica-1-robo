@@ -5,7 +5,7 @@
   <version>0.0.1</version>
   <description>Paquete ROS 2 para control de coche autónomo en Webots.</description>
   
-  <maintainer email="paulohijo0@gmail.com">tu_nombre</maintainer>
+  <maintainer email="manuel.mhernandez@alumnos.upm.es">Manuel</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>

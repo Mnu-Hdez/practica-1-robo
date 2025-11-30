@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="car">
     <webots>
-        <!-- Publica las cámaras directamente sin plugin específico -->
         <device reference="car_camera" type="Camera">
             <ros>
                 <topicName>/car/car_camera/image_raw</topicName>
