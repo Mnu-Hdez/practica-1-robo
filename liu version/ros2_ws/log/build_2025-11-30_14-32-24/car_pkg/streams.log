@@ -1,0 +1,26 @@
+[0.785s] Invoking command in '/home/vboxuser/Downloads/ros2_ws/src/car_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Downloads/ros2_ws/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_pkg build --build-base /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build install --record /home/vboxuser/Downloads/ros2_ws/build/car_pkg/install.log --single-version-externally-managed install_data
+[1.061s] running egg_info
+[1.085s] writing ../../build/car_pkg/car_pkg.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/car_pkg/car_pkg.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/car_pkg/car_pkg.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/car_pkg/car_pkg.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/car_pkg/car_pkg.egg-info/top_level.txt
+[1.132s] reading manifest file '../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+[1.133s] writing manifest file '../../build/car_pkg/car_pkg.egg-info/SOURCES.txt'
+[1.133s] running build
+[1.134s] running build_py
+[1.134s] copying car_pkg/lane_controller.py -> /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg
+[1.134s] running install
+[1.141s] running install_lib
+[1.165s] copying /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build/lib/car_pkg/lane_controller.py -> /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg
+[1.166s] byte-compiling /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg/lane_controller.py to lane_controller.cpython-312.pyc
+[1.168s] running install_data
+[1.168s] running install_egg_info
+[1.195s] removing '/home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg-0.0.1-py3.12.egg-info' (and everything under it)
+[1.196s] Copying ../../build/car_pkg/car_pkg.egg-info to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages/car_pkg-0.0.1-py3.12.egg-info
+[1.197s] running install_scripts
+[1.342s] Installing car_controller script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+[1.344s] Installing lane_controller script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+[1.344s] Installing sign_detector script to /home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/car_pkg
+[1.344s] writing list of installed files to '/home/vboxuser/Downloads/ros2_ws/build/car_pkg/install.log'
+[1.367s] Invoked command in '/home/vboxuser/Downloads/ros2_ws/src/car_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Downloads/ros2_ws/build/car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Downloads/ros2_ws/install/car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_pkg build --build-base /home/vboxuser/Downloads/ros2_ws/build/car_pkg/build install --record /home/vboxuser/Downloads/ros2_ws/build/car_pkg/install.log --single-version-externally-managed install_data

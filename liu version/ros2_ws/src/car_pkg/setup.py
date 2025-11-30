@@ -29,7 +29,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='tu_nombre',
-    maintainer_email='paulohijo0@gmail.com',
+    maintainer_email='haoxiang.liu@alumnos.upm.es',
     description='Paquete ROS 2 para control de coche autónomo en Webots.',
     license='Apache License 2.0',
     tests_require=['pytest'],
